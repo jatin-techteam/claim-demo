@@ -16,7 +16,7 @@ const Demo = () => {
                       <img alt="a" src="assets/images/logo-sm.png" />
                     </span>
                     <span className="logo-lg">
-                      <img alt="" src="assets/images/logo-dark.png" />
+                      <img alt="m" src="assets/images/logo-dark.png" />
                     </span> 
                   </a> */}
                   <a href="index.html" className="logo logo-light">
@@ -218,7 +218,7 @@ const Demo = () => {
                     <img
                       id="header-lang-img"
                       src="assets/images/flags/us.svg"
-                      alt="Header Language"
+                      alt="HeaderLanguage"
                       className="rounded"
                     />
                   </button>
@@ -232,7 +232,7 @@ const Demo = () => {
                     >
                       <img
                         src="assets/images/flags/us.svg"
-                        alt="user-image"
+                        alt="userimage"
                         className="me-2 rounded"
                       />
                       <span className="align-middle">English</span>
@@ -246,9 +246,8 @@ const Demo = () => {
                     >
                       <img
                         src="assets/images/flags/spain.svg"
-                        alt="user-image"
+                        alt="userimage"
                         className="me-2 rounded"
-                        height={18}
                       />
                       <span className="align-middle">Española</span>
                     </a>
@@ -261,7 +260,7 @@ const Demo = () => {
                     >
                       <img
                         src="assets/images/flags/germany.svg"
-                        alt="user-image"
+                        alt="userimage"
                         className="me-2 rounded"
                       />
                       <span className="align-middle">Deutsche</span>
@@ -275,7 +274,7 @@ const Demo = () => {
                     >
                       <img
                         src="assets/images/flags/italy.svg"
-                        alt="user-image"
+                        alt="userimage"
                         className="me-2 rounded"
                       />
                       <span className="align-middle">Italiana</span>
@@ -289,7 +288,7 @@ const Demo = () => {
                     >
                       <img
                         src="assets/images/flags/russia.svg"
-                        alt="user-image"
+                        alt="userimage"
                         className="me-2 rounded"
                       />
                       <span className="align-middle">русский</span>
@@ -303,7 +302,7 @@ const Demo = () => {
                     >
                       <img
                         src="assets/images/flags/china.svg"
-                        alt="user-image"
+                        alt="userimage"
                         className="me-2 rounded"
                       />
                       <span className="align-middle">中国人</span>
@@ -317,7 +316,7 @@ const Demo = () => {
                     >
                       <img
                         src="assets/images/flags/french.svg"
-                        alt="user-image"
+                        alt="userimage"
                         className="me-2 rounded"
                       />
                       <span className="align-middle">français</span>
@@ -557,7 +556,7 @@ const Demo = () => {
                               <img
                                 src="assets/images/users/avatar-8.jpg"
                                 className="me-3 rounded-circle avatar-xs"
-                                alt="user-pic"
+                                alt="userpic"
                               />
                               <div className="flex-1">
                                 <a href="#!" className="stretched-link">
@@ -620,7 +619,7 @@ const Demo = () => {
                               <img
                                 src="assets/images/users/avatar-3.jpg"
                                 className="me-3 rounded-circle avatar-xs"
-                                alt="user-pic"
+                                alt="userpic"
                               />
                               <div className="flex-1">
                                 <a href="#!" className="stretched-link">
@@ -661,7 +660,7 @@ const Demo = () => {
                               <img
                                 src="assets/images/users/avatar-2.jpg"
                                 className="me-3 rounded-circle avatar-xs"
-                                alt="user-pic"
+                                alt="userpic"
                               />
                               <div className="flex-1">
                                 <a href="#!" className="stretched-link">
@@ -703,7 +702,7 @@ const Demo = () => {
                               <img
                                 src="assets/images/users/avatar-6.jpg"
                                 className="me-3 rounded-circle avatar-xs"
-                                alt="user-pic"
+                                alt="userpic"
                               />
                               <div className="flex-1">
                                 <a href="#!" className="stretched-link">
@@ -745,7 +744,7 @@ const Demo = () => {
                               <img
                                 src="assets/images/users/avatar-8.jpg"
                                 className="me-3 rounded-circle avatar-xs"
-                                alt="user-pic"
+                                alt="userpic"
                               />
                               <div className="flex-1">
                                 <a href="#!" className="stretched-link">
@@ -802,7 +801,7 @@ const Demo = () => {
                           <img
                             src="assets/images/svg/bell.svg"
                             className="img-fluid"
-                            alt="user-pic"
+                            alt="userpic"
                           />
                         </div>
                         <div className="text-center pb-5 mt-2">
@@ -827,7 +826,7 @@ const Demo = () => {
                       <img
                         className="rounded-circle header-profile-user"
                         src="assets/images/users/avatar-1.jpg"
-                        alt="Header Avatar"
+                        alt="HeaderAvatar"
                       />
                       <span className="text-start ms-xl-2">
                         <span className="d-none d-xl-inline-block ms-1 fw-medium user-name-text">
@@ -901,7 +900,7 @@ const Demo = () => {
             {/* Dark Logo*/}
             <a href="/" className="logo logo-dark">
               <span className="logo-sm">
-                <img alt="nm " src="assets/images/logo-sm.png" style={{height: "50px"}} />
+                <img alt="nm" src="assets/images/logo-sm.png" style={{height: "50px"}} />
               </span>
               <span className="logo-lg">
                 <img alt="m" src="assets/images/logo-dark.png" style={{height: "50px"}} />
