@@ -13,18 +13,18 @@ const Demo = () => {
                 <div className="navbar-brand-box horizontal-logo">
                   {/* <a href="index.html" className="logo logo-dark">
                     <span className="logo-sm">
-                      <img src="assets/images/logo-sm.png" />
+                      <img alt="" src="assets/images/logo-sm.png" />
                     </span>
                     <span className="logo-lg">
-                      <img src="assets/images/logo-dark.png" />
+                      <img alt="" src="assets/images/logo-dark.png" />
                     </span>
                   </a> */}
                   <a href="index.html" className="logo logo-light">
                     <span className="logo-sm">
-                      <img src="assets/images/logo-sm.png" />
+                      <img alt="" src="assets/images/logo-sm.png" />
                     </span>
                     <span className="logo-lg">
-                      <img src="assets/images/logo-dark.png" />
+                      <img alt="" src="assets/images/logo-dark.png" />
                     </span>
                   </a>
                 </div>
@@ -908,19 +908,19 @@ const Demo = () => {
             {/* Dark Logo*/}
             <a href="index.html" className="logo logo-dark">
               <span className="logo-sm">
-                <img src="assets/images/logo-sm.png" style={{height: "50px"}} />
+                <img alt="" src="assets/images/logo-sm.png" style={{height: "50px"}} />
               </span>
               <span className="logo-lg">
-                <img src="assets/images/logo-dark.png" style={{height: "50px"}} />
+                <img alt="" src="assets/images/logo-dark.png" style={{height: "50px"}} />
               </span>
             </a>
             {/* Light Logo*/}
             <a href="index.html" className="logo logo-light">
               <span className="logo-sm">
-                <img src="assets/images/logo-sm.png" style={{height: "50px"}} />
+                <img alt="" src="assets/images/logo-sm.png" style={{height: "50px"}} />
               </span>
               <span className="logo-lg">
-                <img src="assets/images/logo-light.png" style={{height: "50px"}} />
+                <img alt="" src="assets/images/logo-light.png" style={{height: "50px"}} />
               </span>
             </a>
             <button
