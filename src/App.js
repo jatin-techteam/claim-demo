@@ -1,6 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
-
 import Demo from "./Components/Pages/layouts-vertical.js";
 
 function App() {
