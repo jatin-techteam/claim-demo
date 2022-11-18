@@ -13,18 +13,18 @@ const Demo = () => {
                 <div className="navbar-brand-box horizontal-logo">
                   {/* <a href="index.html" className="logo logo-dark">
                     <span className="logo-sm">
-                      <img alt="" src="assets/images/logo-sm.png" />
+                      <img alt="a" src="assets/images/logo-sm.png" />
                     </span>
                     <span className="logo-lg">
                       <img alt="" src="assets/images/logo-dark.png" />
-                    </span>
+                    </span> 
                   </a> */}
                   <a href="index.html" className="logo logo-light">
                     <span className="logo-sm">
-                      <img alt="" src="assets/images/logo-sm.png" />
+                      <img alt="a" src="assets/images/logo-sm.png" />
                     </span>
                     <span className="logo-lg">
-                      <img alt="" src="assets/images/logo-dark.png" />
+                      <img alt="u" src="assets/images/logo-dark.png" />
                     </span>
                   </a>
                 </div>
@@ -54,13 +54,13 @@ const Demo = () => {
                       </div>
                       <div className="dropdown-item bg-transparent text-wrap">
                         <a
-                          href="index.html"
+                          href="/"
                           className="btn btn-soft-secondary btn-sm btn-rounded"
                         >
                           how to setup <i className="mdi mdi-magnify ms-1" />
                         </a>
                         <a
-                          href="index.html"
+                          href="/"
                           className="btn btn-soft-secondary btn-sm btn-rounded"
                         >
                           buttons <i className="mdi mdi-magnify ms-1" />
@@ -74,7 +74,7 @@ const Demo = () => {
                       </div>
                       {/* item*/}
                       <a
-                        href="javascript:void(0);"
+                        href="/"
                         className="dropdown-item notify-item"
                       >
                         <i className="ri-bubble-chart-line align-middle fs-18 text-muted me-2" />
@@ -82,7 +82,7 @@ const Demo = () => {
                       </a>
                       {/* item*/}
                       <a
-                        href="javascript:void(0);"
+                        href="/"
                         className="dropdown-item notify-item"
                       >
                         <i className="ri-lifebuoy-line align-middle fs-18 text-muted me-2" />
@@ -90,7 +90,7 @@ const Demo = () => {
                       </a>
                       {/* item*/}
                       <a
-                        href="javascript:void(0);"
+                        href="/"
                         className="dropdown-item notify-item"
                       >
                         <i className="ri-user-settings-line align-middle fs-18 text-muted me-2" />
@@ -101,11 +101,11 @@ const Demo = () => {
                         <h6 className="text-overflow text-muted mb-2 text-uppercase">
                           Members
                         </h6>
-                      </div>
+                      </div> 
                       <div className="notification-list">
                         {/* item */}
                         <a
-                          href="javascript:void(0);"
+                          href="/"
                           className="dropdown-item notify-item py-2"
                         >
                           <div className="d-flex">
@@ -124,7 +124,7 @@ const Demo = () => {
                         </a>
                         {/* item */}
                         <a
-                          href="javascript:void(0);"
+                          href="/"
                           className="dropdown-item notify-item py-2"
                         >
                           <div className="d-flex">
@@ -143,7 +143,7 @@ const Demo = () => {
                         </a>
                         {/* item */}
                         <a
-                          href="javascript:void(0);"
+                          href="/"
                           className="dropdown-item notify-item py-2"
                         >
                           <div className="d-flex">
@@ -164,7 +164,7 @@ const Demo = () => {
                     </div>
                     <div className="text-center pt-3 pb-1">
                       <a
-                        href="pages-search-results.html"
+                        href="/"
                         className="btn btn-primary btn-sm"
                       >
                         View All Results{" "}
@@ -219,14 +219,13 @@ const Demo = () => {
                       id="header-lang-img"
                       src="assets/images/flags/us.svg"
                       alt="Header Language"
-                      height={20}
                       className="rounded"
                     />
                   </button>
                   <div className="dropdown-menu dropdown-menu-end">
                     {/* item*/}
                     <a
-                      href="javascript:void(0);"
+                      href="/"
                       className="dropdown-item notify-item language py-2"
                       data-lang="en"
                       title="English"
@@ -235,13 +234,12 @@ const Demo = () => {
                         src="assets/images/flags/us.svg"
                         alt="user-image"
                         className="me-2 rounded"
-                        height={18}
                       />
                       <span className="align-middle">English</span>
                     </a>
                     {/* item*/}
                     <a
-                      href="javascript:void(0);"
+                      href="/"
                       className="dropdown-item notify-item language"
                       data-lang="sp"
                       title="Spanish"
@@ -256,7 +254,7 @@ const Demo = () => {
                     </a>
                     {/* item*/}
                     <a
-                      href="javascript:void(0);"
+                      href="/"
                       className="dropdown-item notify-item language"
                       data-lang="gr"
                       title="German"
@@ -265,13 +263,12 @@ const Demo = () => {
                         src="assets/images/flags/germany.svg"
                         alt="user-image"
                         className="me-2 rounded"
-                        height={18}
                       />
                       <span className="align-middle">Deutsche</span>
                     </a>
                     {/* item*/}
                     <a
-                      href="javascript:void(0);"
+                      href="/"
                       className="dropdown-item notify-item language"
                       data-lang="it"
                       title="Italian"
@@ -280,13 +277,12 @@ const Demo = () => {
                         src="assets/images/flags/italy.svg"
                         alt="user-image"
                         className="me-2 rounded"
-                        height={18}
                       />
                       <span className="align-middle">Italiana</span>
                     </a>
                     {/* item*/}
                     <a
-                      href="javascript:void(0);"
+                      href="/"
                       className="dropdown-item notify-item language"
                       data-lang="ru"
                       title="Russian"
@@ -295,13 +291,12 @@ const Demo = () => {
                         src="assets/images/flags/russia.svg"
                         alt="user-image"
                         className="me-2 rounded"
-                        height={18}
                       />
                       <span className="align-middle">русский</span>
                     </a>
                     {/* item*/}
                     <a
-                      href="javascript:void(0);"
+                      href="/"
                       className="dropdown-item notify-item language"
                       data-lang="ch"
                       title="Chinese"
@@ -310,13 +305,12 @@ const Demo = () => {
                         src="assets/images/flags/china.svg"
                         alt="user-image"
                         className="me-2 rounded"
-                        height={18}
                       />
                       <span className="align-middle">中国人</span>
                     </a>
                     {/* item*/}
                     <a
-                      href="javascript:void(0);"
+                      href="/"
                       className="dropdown-item notify-item language"
                       data-lang="fr"
                       title="French"
@@ -325,7 +319,6 @@ const Demo = () => {
                         src="assets/images/flags/french.svg"
                         alt="user-image"
                         className="me-2 rounded"
-                        height={18}
                       />
                       <span className="align-middle">français</span>
                     </a>
@@ -391,7 +384,7 @@ const Demo = () => {
                             <a
                               className="nav-link active"
                               data-bs-toggle="tab"
-                              href="#all-noti-tab"
+                              href="#"
                               role="tab"
                               aria-selected="true"
                             >
@@ -402,7 +395,7 @@ const Demo = () => {
                             <a
                               className="nav-link"
                               data-bs-toggle="tab"
-                              href="#messages-tab"
+                              href="#"
                               role="tab"
                               aria-selected="false"
                             >
@@ -413,7 +406,7 @@ const Demo = () => {
                             <a
                               className="nav-link"
                               data-bs-toggle="tab"
-                              href="#alerts-tab"
+                              href="#"
                               role="tab"
                               aria-selected="false"
                             >
@@ -445,7 +438,7 @@ const Demo = () => {
                                 </span>
                               </div>
                               <div className="flex-1">
-                                <a href="#!" className="stretched-link">
+                                <a href="#" className="stretched-link">
                                   <h6 className="mt-0 mb-2 lh-base">
                                     Your <b>Elite</b> author Graphic
                                     Optimization
@@ -486,7 +479,7 @@ const Demo = () => {
                                 alt="user-pic"
                               />
                               <div className="flex-1">
-                                <a href="#!" className="stretched-link">
+                                <a href="#" className="stretched-link">
                                   <h6 className="mt-0 mb-1 fs-13 fw-semibold">
                                     Angela Bernier
                                   </h6>
@@ -849,24 +842,24 @@ const Demo = () => {
                   <div className="dropdown-menu dropdown-menu-end">
                     {/* item*/}
                     <h6 className="dropdown-header">Welcome Anna!</h6>
-                    <a className="dropdown-item" href="pages-profile.html">
+                    <a className="dropdown-item" href="/">
                       <i className="mdi mdi-account-circle text-muted fs-16 align-middle me-1" />
                       <span className="align-middle">Profile</span>
                     </a>
-                    <a className="dropdown-item" href="apps-chat.html">
+                    <a className="dropdown-item" href="/">
                       <i className="mdi mdi-message-text-outline text-muted fs-16 align-middle me-1" />
                       <span className="align-middle">Messages</span>
                     </a>
-                    <a className="dropdown-item" href="apps-tasks-kanban.html">
+                    <a className="dropdown-item" href="/">
                       <i className="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1" />
                       <span className="align-middle">Taskboard</span>
                     </a>
-                    <a className="dropdown-item" href="pages-faqs.html">
+                    <a className="dropdown-item" href="/">
                       <i className="mdi mdi-lifebuoy text-muted fs-16 align-middle me-1" />
                       <span className="align-middle">Help</span>
                     </a>
                     <div className="dropdown-divider" />
-                    <a className="dropdown-item" href="pages-profile.html">
+                    <a className="dropdown-item" href="/">
                       <i className="mdi mdi-wallet text-muted fs-16 align-middle me-1" />
                       <span className="align-middle">
                         Balance : <b>$5971.67</b>
@@ -874,7 +867,7 @@ const Demo = () => {
                     </a>
                     <a
                       className="dropdown-item"
-                      href="pages-profile-settings.html"
+                      href="/"
                     >
                       <span className="badge bg-soft-success text-success mt-1 float-end">
                         New
@@ -884,12 +877,12 @@ const Demo = () => {
                     </a>
                     <a
                       className="dropdown-item"
-                      href="auth-lockscreen-basic.html"
+                      href="/"
                     >
                       <i className="mdi mdi-lock text-muted fs-16 align-middle me-1" />
                       <span className="align-middle">Lock screen</span>
                     </a>
-                    <a className="dropdown-item" href="auth-logout-basic.html">
+                    <a className="dropdown-item" href="/">
                       <i className="mdi mdi-logout text-muted fs-16 align-middle me-1" />
                       <span className="align-middle" data-key="t-logout">
                         Logout
@@ -906,21 +899,21 @@ const Demo = () => {
           {/* LOGO */}
           <div className="navbar-brand-box">
             {/* Dark Logo*/}
-            <a href="index.html" className="logo logo-dark">
+            <a href="/" className="logo logo-dark">
               <span className="logo-sm">
-                <img alt="" src="assets/images/logo-sm.png" style={{height: "50px"}} />
+                <img alt="nm " src="assets/images/logo-sm.png" style={{height: "50px"}} />
               </span>
               <span className="logo-lg">
-                <img alt="" src="assets/images/logo-dark.png" style={{height: "50px"}} />
+                <img alt="m" src="assets/images/logo-dark.png" style={{height: "50px"}} />
               </span>
             </a>
             {/* Light Logo*/}
-            <a href="index.html" className="logo logo-light">
+            <a href="/" className="logo logo-light">
               <span className="logo-sm">
-                <img alt="" src="assets/images/logo-sm.png" style={{height: "50px"}} />
+                <img alt="m" src="assets/images/logo-sm.png" style={{height: "50px"}} />
               </span>
               <span className="logo-lg">
-                <img alt="" src="assets/images/logo-light.png" style={{height: "50px"}} />
+                <img alt="m" src="assets/images/logo-light.png" style={{height: "50px"}} />
               </span>
             </a>
             <button
@@ -957,7 +950,7 @@ const Demo = () => {
                 <li className="nav-item">
                   <a
                     className="nav-link menu-link"
-                    href="#sidebarDashboards"
+                    href="#"
                     data-bs-toggle="collapse"
                     role="button"
                     aria-expanded="false"
@@ -973,7 +966,7 @@ const Demo = () => {
                     <ul className="nav nav-sm flex-column">
                       <li className="nav-item">
                         <a
-                          href="dashboard-analytics.html"
+                          href="/"
                           className="nav-link"
                           data-key="t-analytics"
                         >
@@ -982,283 +975,16 @@ const Demo = () => {
                       </li>
                       <li className="nav-item">
                         <a
-                          href="dashboard-crm.html"
+                          href="/"
                           className="nav-link"
                           data-key="t-crm"
                         >
                           CRM
                         </a>
                       </li>
-                      {/* <li class="nav-item">
-                                  <a href="index.html" class="nav-link" data-key="t-ecommerce"> Ecommerce </a>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"> Crypto </a>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="dashboard-projects.html" class="nav-link" data-key="t-projects"> Projects </a>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="dashboard-nft.html" class="nav-link" data-key="t-nft"> NFT</a>
-                              </li> */}
                     </ul>
                   </div>
                 </li>
-                {/* end Dashboard Menu */}
-                {/* <li class="nav-item">
-                      <a class="nav-link menu-link" href="#sidebarApps" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarApps">
-                          <i class="bx bx-layer"></i> <span data-key="t-apps">Apps</span>
-                      </a>
-                      <div class="collapse menu-dropdown" id="sidebarApps">
-                          <ul class="nav nav-sm flex-column">
-                              <li class="nav-item">
-                                  <a href="apps-calendar.html" class="nav-link" data-key="t-calendar"> Calendar </a>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="apps-chat.html" class="nav-link" data-key="t-chat"> Chat </a>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="#sidebarEmail" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarEmail" data-key="t-email">
-                                      Email
-                                  </a>
-                                  <div class="collapse menu-dropdown" id="sidebarEmail">
-                                      <ul class="nav nav-sm flex-column">
-                                          <li class="nav-item">
-                                              <a href="apps-mailbox.html" class="nav-link" data-key="t-mailbox"> Mailbox </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="#sidebaremailTemplates" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebaremailTemplates" data-key="t-email-templates">
-                                                  Email Templates
-                                              </a>
-                                              <div class="collapse menu-dropdown" id="sidebaremailTemplates">
-                                                  <ul class="nav nav-sm flex-column">
-                                                      <li class="nav-item">
-                                                          <a href="apps-email-basic.html" class="nav-link" data-key="t-basic-action"> Basic Action </a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="apps-email-ecommerce.html" class="nav-link" data-key="t-ecommerce-action"> Ecommerce Action </a>
-                                                      </li>
-                                                  </ul>
-                                              </div>
-                                          </li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="#sidebarEcommerce" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarEcommerce" data-key="t-ecommerce"> Ecommerce
-                                  </a>
-                                  <div class="collapse menu-dropdown" id="sidebarEcommerce">
-                                      <ul class="nav nav-sm flex-column">
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-products.html" class="nav-link" data-key="t-products"> Products </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-product-details.html" class="nav-link" data-key="t-product-Details"> Product Details </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-add-product.html" class="nav-link" data-key="t-create-product"> Create Product </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-orders.html" class="nav-link" data-key="t-orders"> Orders </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-order-details.html" class="nav-link" data-key="t-order-details"> Order Details </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-customers.html" class="nav-link" data-key="t-customers"> Customers </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-cart.html" class="nav-link" data-key="t-shopping-cart"> Shopping Cart </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-checkout.html" class="nav-link" data-key="t-checkout"> Checkout </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-sellers.html" class="nav-link" data-key="t-sellers"> Sellers </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-ecommerce-seller-details.html" class="nav-link" data-key="t-sellers-details"> Seller Details </a>
-                                          </li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="#sidebarProjects" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarProjects" data-key="t-projects"> Projects
-                                  </a>
-                                  <div class="collapse menu-dropdown" id="sidebarProjects">
-                                      <ul class="nav nav-sm flex-column">
-                                          <li class="nav-item">
-                                              <a href="apps-projects-list.html" class="nav-link" data-key="t-list"> List </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-projects-overview.html" class="nav-link" data-key="t-overview"> Overview </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-projects-create.html" class="nav-link" data-key="t-create-project"> Create Project </a>
-                                          </li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="#sidebarTasks" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarTasks" data-key="t-tasks"> Tasks
-                                  </a>
-                                  <div class="collapse menu-dropdown" id="sidebarTasks">
-                                      <ul class="nav nav-sm flex-column">
-                                          <li class="nav-item">
-                                              <a href="apps-tasks-kanban.html" class="nav-link" data-key="t-kanbanboard"> Kanban Board </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-tasks-list-view.html" class="nav-link" data-key="t-list-view"> List View </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-tasks-details.html" class="nav-link" data-key="t-task-details"> Task Details </a>
-                                          </li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="#sidebarCRM" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarCRM" data-key="t-crm"> CRM
-                                  </a>
-                                  <div class="collapse menu-dropdown" id="sidebarCRM">
-                                      <ul class="nav nav-sm flex-column">
-                                          <li class="nav-item">
-                                              <a href="apps-crm-contacts.html" class="nav-link" data-key="t-contacts"> Contacts </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-crm-companies.html" class="nav-link" data-key="t-companies"> Companies </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-crm-deals.html" class="nav-link" data-key="t-deals"> Deals </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-crm-leads.html" class="nav-link" data-key="t-leads"> Leads </a>
-                                          </li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="#sidebarCrypto" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarCrypto" data-key="t-crypto"> Crypto
-                                  </a>
-                                  <div class="collapse menu-dropdown" id="sidebarCrypto">
-                                      <ul class="nav nav-sm flex-column">
-                                          <li class="nav-item">
-                                              <a href="apps-crypto-transactions.html" class="nav-link" data-key="t-transactions"> Transactions </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-crypto-buy-sell.html" class="nav-link" data-key="t-buy-sell"> Buy & Sell </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-crypto-orders.html" class="nav-link" data-key="t-orders"> Orders </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-crypto-wallet.html" class="nav-link" data-key="t-my-wallet"> My Wallet </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-crypto-ico.html" class="nav-link" data-key="t-ico-list"> ICO List </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-crypto-kyc.html" class="nav-link" data-key="t-kyc-application"> KYC Application </a>
-                                          </li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="#sidebarInvoices" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarInvoices" data-key="t-invoices"> Invoices
-                                  </a>
-                                  <div class="collapse menu-dropdown" id="sidebarInvoices">
-                                      <ul class="nav nav-sm flex-column">
-                                          <li class="nav-item">
-                                              <a href="apps-invoices-list.html" class="nav-link" data-key="t-list-view"> List View </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-invoices-details.html" class="nav-link" data-key="t-details"> Details </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-invoices-create.html" class="nav-link" data-key="t-create-invoice"> Create Invoice </a>
-                                          </li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="#sidebarTickets" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarTickets" data-key="t-supprt-tickets"> Support Tickets
-                                  </a>
-                                  <div class="collapse menu-dropdown" id="sidebarTickets">
-                                      <ul class="nav nav-sm flex-column">
-                                          <li class="nav-item">
-                                              <a href="apps-tickets-list.html" class="nav-link" data-key="t-list-view"> List View </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-tickets-details.html" class="nav-link" data-key="t-ticket-details"> Ticket Details </a>
-                                          </li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="#sidebarnft" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarnft" data-key="t-nft-marketplace">
-                                      NFT Marketplace
-                                  </a>
-                                  <div class="collapse menu-dropdown" id="sidebarnft">
-                                      <ul class="nav nav-sm flex-column">
-                                          <li class="nav-item">
-                                              <a href="apps-nft-marketplace.html" class="nav-link" data-key="t-marketplace"> Marketplace </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-nft-explore.html" class="nav-link" data-key="t-explore-now"> Explore Now </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-nft-auction.html" class="nav-link" data-key="t-live-auction"> Live Auction </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-nft-item-details.html" class="nav-link" data-key="t-item-details"> Item Details </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-nft-collections.html" class="nav-link" data-key="t-collections"> Collections </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-nft-creators.html" class="nav-link" data-key="t-creators"> Creators </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-nft-ranking.html" class="nav-link" data-key="t-ranking"> Ranking </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-nft-wallet.html" class="nav-link" data-key="t-wallet-connect"> Wallet Connect </a>
-                                          </li>
-                                          <li class="nav-item">
-                                              <a href="apps-nft-create.html" class="nav-link" data-key="t-create-nft"> Create NFT </a>
-                                          </li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="apps-file-manager.html" class="nav-link"> <span data-key="t-file-manager">File Manager</span> <span class="badge badge-pill bg-danger" data-key="t-new">New</span></a>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="apps-todo.html" class="nav-link"> <span data-key="t-to-do">To Do</span> <span class="badge badge-pill bg-danger" data-key="t-new">New</span></a>
-                              </li>
-                          </ul>
-                      </div>
-                  </li> */}
-                {/* <li class="nav-item">
-                      <a class="nav-link menu-link" href="#sidebarLayouts" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarLayouts">
-                          <i class="bx bx-layout"></i> <span data-key="t-layouts">Layouts</span>
-                      </a>
-                      <div class="collapse menu-dropdown" id="sidebarLayouts">
-                          <ul class="nav nav-sm flex-column">
-                              <li class="nav-item">
-                                  <a href="layouts-vertical.html" target="_blank" class="nav-link" data-key="t-vertical">Vertical</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="layouts-detached.html" target="_blank" class="nav-link" data-key="t-detached">Detached</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="layouts-two-column.html" target="_blank" class="nav-link" data-key="t-two-column">Two Column</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a href="layouts-vertical-hovered.html" target="_blank" class="nav-link" data-key="t-hovered">Hovered</a>
-                              </li>
-                          </ul>
-                      </div>
-                  </li>  */}
                 <li className="menu-title">
                   <i className="ri-more-fill" />
                   <span data-key="t-pages">Users</span>
@@ -1324,7 +1050,7 @@ const Demo = () => {
                           aria-expanded="false"
                           aria-controls="sidebarSignUp"
                           data-key="t-signup"
-                        >
+                        > 
                           Sign Up
                         </a>
                         <div
