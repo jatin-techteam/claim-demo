@@ -383,7 +383,7 @@ const Demo = () => {
                             <a
                               className="nav-link active"
                               data-bs-toggle="tab"
-                              href="#"
+                              href="/"
                               role="tab"
                               aria-selected="true"
                             >
@@ -394,7 +394,7 @@ const Demo = () => {
                             <a
                               className="nav-link"
                               data-bs-toggle="tab"
-                              href="#"
+                              href="/"
                               role="tab"
                               aria-selected="false"
                             >
@@ -405,7 +405,7 @@ const Demo = () => {
                             <a
                               className="nav-link"
                               data-bs-toggle="tab"
-                              href="#"
+                              href="/"
                               role="tab"
                               aria-selected="false"
                             >
@@ -437,7 +437,7 @@ const Demo = () => {
                                 </span>
                               </div>
                               <div className="flex-1">
-                                <a href="#" className="stretched-link">
+                                <a href="/" className="stretched-link">
                                   <h6 className="mt-0 mb-2 lh-base">
                                     Your <b>Elite</b> author Graphic
                                     Optimization
@@ -478,7 +478,7 @@ const Demo = () => {
                                 alt="user-pic"
                               />
                               <div className="flex-1">
-                                <a href="#" className="stretched-link">
+                                <a href="/" className="stretched-link">
                                   <h6 className="mt-0 mb-1 fs-13 fw-semibold">
                                     Angela Bernier
                                   </h6>
@@ -521,7 +521,7 @@ const Demo = () => {
                                 </span>
                               </div>
                               <div className="flex-1">
-                                <a href="#!" className="stretched-link">
+                                <a href="/" className="stretched-link">
                                   <h6 className="mt-0 mb-2 fs-13 lh-base">
                                     You have received
                                     <b className="text-success">20</b> new
@@ -559,7 +559,7 @@ const Demo = () => {
                                 alt="userpic"
                               />
                               <div className="flex-1">
-                                <a href="#!" className="stretched-link">
+                                <a href="/" className="stretched-link">
                                   <h6 className="mt-0 mb-1 fs-13 fw-semibold">
                                     Maureen Gibson
                                   </h6>
@@ -622,7 +622,7 @@ const Demo = () => {
                                 alt="userpic"
                               />
                               <div className="flex-1">
-                                <a href="#!" className="stretched-link">
+                                <a href="/" className="stretched-link">
                                   <h6 className="mt-0 mb-1 fs-13 fw-semibold">
                                     James Lemire
                                   </h6>
@@ -663,7 +663,7 @@ const Demo = () => {
                                 alt="userpic"
                               />
                               <div className="flex-1">
-                                <a href="#!" className="stretched-link">
+                                <a href="/" className="stretched-link">
                                   <h6 className="mt-0 mb-1 fs-13 fw-semibold">
                                     Angela Bernier
                                   </h6>
@@ -705,7 +705,7 @@ const Demo = () => {
                                 alt="userpic"
                               />
                               <div className="flex-1">
-                                <a href="#!" className="stretched-link">
+                                <a href="/" className="stretched-link">
                                   <h6 className="mt-0 mb-1 fs-13 fw-semibold">
                                     Kenneth Brown
                                   </h6>
@@ -747,7 +747,7 @@ const Demo = () => {
                                 alt="userpic"
                               />
                               <div className="flex-1">
-                                <a href="#!" className="stretched-link">
+                                <a href="/" className="stretched-link">
                                   <h6 className="mt-0 mb-1 fs-13 fw-semibold">
                                     Maureen Gibson
                                   </h6>
@@ -949,7 +949,7 @@ const Demo = () => {
                 <li className="nav-item">
                   <a
                     className="nav-link menu-link"
-                    href="#"
+                    href="/"
                     data-bs-toggle="collapse"
                     role="button"
                     aria-expanded="false"
@@ -959,7 +959,7 @@ const Demo = () => {
                     <span data-key="t-dashboards">Dashboards</span>
                   </a>
                   <div
-                    className="collapse menu-dropdown"
+                    className="collapse menu-dropdown" 
                     id="sidebarDashboards"
                   >
                     <ul className="nav nav-sm flex-column">
@@ -2758,7 +2758,7 @@ const Demo = () => {
                       <div class="collapse menu-dropdown" id="sidebarMultilevel">
                           <ul class="nav nav-sm flex-column">
                               <li class="nav-item">
-                                  <a href="#" class="nav-link" data-key="t-level-1.1"> Level 1.1 </a>
+                                  <a href="/" class="nav-link" data-key="t-level-1.1"> Level 1.1 </a>
                               </li>
                               <li class="nav-item">
                                   <a href="#sidebarAccount" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarAccount" data-key="t-level-1.2"> Level 1.2
@@ -2766,7 +2766,7 @@ const Demo = () => {
                                   <div class="collapse menu-dropdown" id="sidebarAccount">
                                       <ul class="nav nav-sm flex-column">
                                           <li class="nav-item">
-                                              <a href="#" class="nav-link" data-key="t-level-2.1"> Level 2.1 </a>
+                                              <a href="/" class="nav-link" data-key="t-level-2.1"> Level 2.1 </a>
                                           </li>
                                           <li class="nav-item">
                                               <a href="#sidebarCrm" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarCrm" data-key="t-level-2.2"> Level 2.2
@@ -2774,10 +2774,10 @@ const Demo = () => {
                                               <div class="collapse menu-dropdown" id="sidebarCrm">
                                                   <ul class="nav nav-sm flex-column">
                                                       <li class="nav-item">
-                                                          <a href="#" class="nav-link" data-key="t-level-3.1"> Level 3.1 </a>
+                                                          <a href="/" class="nav-link" data-key="t-level-3.1"> Level 3.1 </a>
                                                       </li>
                                                       <li class="nav-item">
-                                                          <a href="#" class="nav-link" data-key="t-level-3.2"> Level 3.2 </a>
+                                                          <a href="/" class="nav-link" data-key="t-level-3.2"> Level 3.2 </a>
                                                       </li>
                                                   </ul>
                                               </div>
@@ -2811,7 +2811,7 @@ const Demo = () => {
                     <div className="page-title-right">
                       <ol className="breadcrumb m-0">
                         <li className="breadcrumb-item">
-                          <a href="javascript: void(0);">Layouts</a>
+                          <a href="/">Layouts</a>
                         </li>
                         <li className="breadcrumb-item active">Super Admin</li>
                       </ol>
